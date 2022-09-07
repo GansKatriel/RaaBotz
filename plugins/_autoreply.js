@@ -22,7 +22,7 @@ let fs = require('fs')
       
      // ketika ada yang invite/kirim link grup di chat pribadi 
      if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) { 
-         this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/d75ed6e82e964778e169e.jpg', `┌「 *Undang Bot ke Grup* 」 
+         this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/2aa124a6bd1fdff4f51d9.jpg', `┌「 *Undang Bot ke Grup* 」 
  ├ 7 Hari / Rp 5,000 
  ├ 30 Hari / Rp 15,000 
  └──── 
@@ -38,7 +38,7 @@ let fs = require('fs')
                      key: m.key 
              } 
      })         
-             await this.send2ButtonLoc(m.chat, 'https://telegra.ph/file/96a78933baa32ab4829ca.jpg', m.msg.contextInfo.expiration == 604800 ? '\n\nketik *.ephe* untuk matiin pesan sementaranya, biar tombolnya bisa dipake' : `Ada Apa Ya Tag-Tag Saia @${m.sender.split`@`[0]}?\nApakah Ada Bansos ?`, wm, isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu', 
+             await this.send2ButtonLoc(m.chat, 'https://telegra.ph/file/2aa124a6bd1fdff4f51d9.jpg', m.msg.contextInfo.expiration == 604800 ? '\n\nketik *.ephe* untuk matiin pesan sementaranya, biar tombolnya bisa dipake' : `Ada Apa Ya Tag-Tag Saia @${m.sender.split`@`[0]}?\nApakah Ada Bansos ?`, wm, isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu', 
                  isBanned ? '.unban' : banned ? '.owner' : '.?', 
                  m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi', 
                  m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m) 
@@ -55,9 +55,9 @@ let fs = require('fs')
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
                  sourceUrl: 'https://youtu.be/RlhkqeUDZrA/', 
-             title: 'Claraa San UwU', 
+             title: 'Riell San UwU', 
              body: '', 
-           thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
+           thumbnail: await (await fetch('https://telegra.ph/file/2aa124a6bd1fdff4f51d9.jpg')).buffer() 
          } 
       } 
      }) 
@@ -74,8 +74,8 @@ let fs = require('fs')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`🎂️ Ultah Clara UwU : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
-⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Claraa UwU`).catch(_ => _)  
+        await this.setBio(`🎂️ Ultah RiellFurr : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made RiellGanzzz`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 
   
