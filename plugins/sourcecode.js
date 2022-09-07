@@ -3,17 +3,17 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, 'https://telegra
 `Hi Kak @${m.sender.split('@')[0]} 
 
 ◪ 📮 *SCRIPT BOT*
-│ *Script :* 
-│ ╰ Ada Di GitHub
-│ *NIH :* 
-│ ╰ Tapi Gw Private
+│ *Script base:* 
+│ ╰ FAMILY MD 
+│ *Script recode by me:* 
+│ ╰ Private deck🐤
 ╰──────────═┅═──────────
 `,`📍 *N o t e :* 
 • Jangan lupa minta izin owner sebelum menggunakan scriptnya kak!
-• Minta Sc Ke Owner Pasti Nnti Ga Di Kasih Soalnya Ownernya Pelit Yahaha!
+• follow github owner RielTod1!
 
 Official By @${'0'.split('@')[0]}
-Powered By @${`${global.owner[0]}`.split('@')[0]}`, 'Pemilik Bot', '#owner')
+Powered By @${`${global.owner[0]}`.split('@')[0]}`, 'Pemilik Bot🐤', '#owner')
 handler.help = ['sourcecode']
 handler.tags = ['info']
 handler.command = /^(sourcecode|sc|scbot|script|github)$/i
