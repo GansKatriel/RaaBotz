@@ -7,16 +7,17 @@
 let handler = async (m, { conn, usedPrefix }) => {
     let tqto = `*BIG THANKS TO*
     
-Terimakasih Utama Nya Teruntuk:
+᪥ Terimakasih Utama Nya Teruntuk
+RielOfc yang mengembangkan kembali script ini:
 ➸ @${`${global.owner[0]}`.split('@')[0]}
 
-Terimakasih Juga Untuk Kang Banned:
+᪥ Terimakasih Juga Untuk Kang Banned:
 ➸ @${'0'.split('@')[0]}
 
-──────────────────────
+═════════════♡᭄
 • God
 • My ortu
-• Claraa ( Me )
+• Family MD
 • Nurutomo
 • Adiwajshing
 • Xteam
