@@ -9,8 +9,8 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, 'https://telegra
 │ ╰ Private deck🐤
 ╰──────────═┅═──────────
 `,`📍 *N o t e :* 
-• Jangan lupa minta izin owner sebelum menggunakan scriptnya kak!
-• follow github owner RielTod1!
+• Berteman sama ownernya cuy ramah🗿
+• dan jangan follow github owner RielTod1!
 
 Official By @${'0'.split('@')[0]}
 Powered By @${`${global.owner[0]}`.split('@')[0]}`, 'Pemilik Bot🐤', '#owner')
