@@ -56,7 +56,7 @@ global.phn = '0'
 
 //========== Tampilan Bot =============//
 global.sa = '╭─'
-global.gx = '│✇'
+global.gx = '│☠︎︎'
 global.gy = '│•'
 global.gz = '│'
 global.sb = '╰────࿐'
